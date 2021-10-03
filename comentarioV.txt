@@ -1,3 +1,0 @@
-Comentario por valentina rama nueva
-Mi nombre es Valentina Villán, estudio ingenieria civil en la UIS, me gusta dibujar, ver series y hacer ejercicio.
-Esta es mi primera vez un curso de programación completo, dado que en mi carrera solo lo vi por encima en una materia llamada métodos númericos.
