@@ -1,8 +1,10 @@
 
 h1::before{
     content: 'Bienvenido al sistema';
-    width: 61%;
+    width: 59%;
     height: 8%;
+    padding-top: 10px;
+    
 
     position: absolute;
     top: 200px;
@@ -111,4 +113,8 @@ input[type="password"]{
         justify-content: flex-end;
         overflow: hidden;
     }
+}
+/*Agregando carcateristicas de button Valentina*/
+#button {
+    text-decoration: none;
 }
