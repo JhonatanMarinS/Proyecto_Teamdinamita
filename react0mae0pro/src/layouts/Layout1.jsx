@@ -1,11 +1,11 @@
-import Header from 'components/Header'
-import Footer from 'components/Footer'
-
-const Layout1 =( {children} ) =>{
+import Footer from '../components/footer.jsx'
+import Header from '../components/header.jsx'
+import MaePro from './components/contenidoMaePro.jsx';
+const Layout1 =() =>{
     return(
         <div className='mainMaePro'>
             <Header />
-            <main>{children}</main>
+            <MaePro/>
             <Footer />
         </div>
     )

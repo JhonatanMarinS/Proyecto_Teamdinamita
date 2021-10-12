@@ -1,18 +1,15 @@
-import Layout1 from './layouts/Layout1';
-import MaePro from './components/ContenidoMaePro';
+import Layout1 from './layouts/layout1.jsx';
 
-import V02MaePro from './pages/v02MaePro';
-import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import logo from './logo.svg';
-import 'styles/intMaePro.css';
-import 'styles/V02.css';
+
+import 'c:/Users/Valentina/Documents/GitHub/Proyecto_Teamdinamita/react0mae0pro/src/styles/intMaePro.css';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Layout1>
-        <MaePro></MaePro>
+      
       </Layout1>
     </div>
   );

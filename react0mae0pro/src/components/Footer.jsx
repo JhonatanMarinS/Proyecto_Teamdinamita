@@ -1,7 +1,8 @@
-const Footer =()  => {
+function Footer (){
     return (
+        <>
         <footer className="footer">
-        <div className="redes">
+        <div className="hola">
             <div className="cont1">
                 <div className="c1">
                     <h5 id='t1'> ayuda e información</h5>
@@ -32,7 +33,7 @@ const Footer =()  => {
                 </div>
             </div>
         </div>
-    </footer>
+    </footer></>
     )
 }
 
