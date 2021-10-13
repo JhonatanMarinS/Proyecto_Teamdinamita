@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <title>V12 MaePro</title>
+        <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale03.0, minimum-scale=1.0">
+        <script src="https://kit.fontawesome.com/26931afe30.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="V02.css">
+        </head>
+        <header>
+            <div class="encabezado">
+                <h1>Nombre de la empresa / Productos</h1>
+            </div>
+            <div class="menu" id="menu">
+                <!-- start nav -->
+                <!-- start menu -->
+                <ul>
+                <li><a href="#">Mi Empresa</a></li>
+                <li><a href="#">Mis Productos y Servicios</a>
+                <!-- start menu desplegable -->
+                <ul>
+                    <li><a href="#">Tipo de producto o servicio</a></li>
+                    <li><a class="link" href="#">Productos</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Descuentos</a></li>
+                    <li><a href="#">Stock</a></li>
+                </ul>
+                <!-- end menu desplegable -->
+                </li>
+                <li><a href="#">Mis ventas</a></li>
+                <li><a href="#">Punto de venta</a></li>
+                <li><a href="#">Reportes</a></li>
+    
+                </ul>
+                <!-- end menu -->
+                </div>
+                <!-- end nav -->
+        </header>
+    <body>
+        <div class='imagen'>
+            <img src="lupa.jpg" width="500">
+            </div>
+        <!--inicio MaePro-->
+        
+          <div class="n"> 
+        <a href="#" title="Ir arriba">
+            <input type="submit" value="Ir arriba" class="bootton" style=position:fixed;bottom:0;right:0;/>
+        </a> 
+        </div> 
+
+        
+    
+        <!--final MaePro-->      
+<br>
+<br>
+<br>
+<table class="table">
+<th><h6>Lista de Productos</h6></th>
+<th><div id='hiper' class='hiper'><a href="#openModal">+Nuevo Registro o Actualización</a></div>
+    <div id='hiper' class='hiper'><a href="#openModal2">Buscar Producto</a></div></th>
+</table>
+<div id="openModal" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+        
+		
+        <form class="formulario">
+            <h2>Registro o Actualización de productos</h2>
+            <h3>Ingreso de producto</h3>
+            <div class='encerrado2'>
+                <div class="imput-con">
+                    <i class="fas fa-barcode icon"></i>Código:<input type='text'>
+                    
+                 
+                </div>
+
+                <div class="imput-con">
+                    <i class="far fa-bookmark icon"></i>
+                    <label>Descripción:</label>
+                    <input type='text'>
+                 
+                </div>
+
+                <div class="imput-con">
+                    <i class="far fa-calendar-alt icon"></i>
+                    <label>Fecha de creación:</label>
+                    <input type='text'>
+                 
+                </div>
+                <div class="imput-con">
+                    <i class="fas fa-clipboard-list icon"></i>
+                    <label>Tipo:</label>
+                        <input type="radio" id="html" name="fav_language" value="HTML">
+                         <label for="html">Sin Definición</label>
+                        <input type="radio" id="css" name="fav_language" value="CSS">
+                         <label for="css">Serie</label>
+                          <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                          <label for="javascript">Lote</label>
+                 
+                </div>
+
+                <div class="imput-con">
+                    <i class="fas fa-ruler-combined icon"></i>
+                    <label>Unidad de Medida:</label>
+                    <input type='text'>
+                 
+                </div>
+
+                <div class="imput-con">
+                    <i class="fas fa-info-circle icon"></i>
+                    <label>Estado:</label>
+                    <select id="product" class='pro' name="Productos">
+                        <option value="Disponible">Disponible</option>
+                        <option value="No Disponible">No Disponible</option>
+                        <option value="En Camino">En Camino</option>
+                 
+                </div>
+                
+                </a><input type='sumit' value='Guardar' class="botton"></a>
+                <p>Antes de salir, recuerda verificar el contenido ingresado</p>
+                 
+            </div>
+        
+        </form> 
+		
+		
+	</div>
+</div>
+</div>
+
+<!--Nuevo modal Buscar productos-->
+
+
+<div id="openModal2" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+        
+		
+        <form class="formulario">
+            <h2>Registro de productos</h2>
+            <h3>Buscar producto</h3>
+            <div class='encerrado2'>
+                <div class="imput-con">
+                    <i class="fas fa-book-open icon"></i>Nombre:<input type='text'>
+                    
+                 
+                </div>
+
+                <div class="imput-con">
+                    <i class="fas fa-barcode icon"></i>
+                    <label>Código:</label>
+                    <input type='text'>
+                 
+                </div>
+
+                <div class="imput-con">
+                    <i class="far fa-calendar-alt icon"></i>
+                    <label>Fecha de creación:</label>
+                    <input type='text'>
+                 
+                </div>
+                
+                <div class="imput-con">
+                    <i class="fas fa-list icon"></i>
+                    <label> Lista de productos:</label>
+                    <select id="product" class='pro' name="Productos">
+                        <option value="producto 1">producto 1</option>
+                        <option value="producto 2">producto 2</option>
+                        
+                 
+                </div>
+                    
+                </a><input type='sumit' value='Buscar' class="botton"></a>
+                <p>Digita alguno de los espacios con la caracteristica correspondiente del producto</p>
+                 
+            </div>
+        
+        </form> 
+		
+		
+	</div>
+</div>
+</div>
+<!---Final Nuevo Modal Buscar Productos-->
+<!--Ver Productos-->
+
+<div id='L' class='L'>
+<ul>
+    <li><a href="#" class='l2'>Código</a></li>
+    <li><a  href="#" class='l2'>Descripción</a></li>
+    <li><a href="#" class='l2'>Precio</a></li>
+    <li><a href="#" class='l2'>Existencia</a></li>
+    <li><a href="#" class='l2'>Proveedor</a></li>
+    <li><a href="#" class='l2'>Foto</a></li>
+    <li><a href="#" class='l2'>Acción</a></li>
+  </ul>
+</div>
+<!--Final ver Productos-->
+<!--otra lista inicia-->
+<div id='lis' class='lis'>
+    <ul>
+        <li><a href="#" class='l3'>1</a></li>
+        <li><a  href="#" class='l3'>Celular</a></li>
+        <li><a href="#" class='l3'>5,000,000</a></li>
+        <li><a href="#" class='l3'>Disponible</a></li>
+        <li><a href="#" class='l3'>Proveedor A</a></li>
+        <li><img src="https://m.media-amazon.com/images/I/61m1Dot5KCL._AC_SX522_.jpg" alt="celular" height="75"></li>
+        <li><a href="#openModal" class='l4' style='color:rgb(59,59,247)'>   <u>  Editar</u></a></li>
+      </ul>
+    </div>
+<!--final otra lista inicia-->
+<!--otra lista inicia-->
+<div id='lis2' class='lis2'>
+    <ul>
+        <li><a href="#" class='l4'>2</a></li>
+        <li><a  href="#" class='l4'>Laptop</a></li>
+        <li><a href="#" class='l4'>5,000,000</a></li>
+        <li><a href="#" class='l4'>Disponible</a></li>
+        <li><a href="#" class='l4'>Proveedor B</a></li>
+        <li><img src="https://www.costco.com.mx/medias/sys_master/products/hd7/h8f/49051653701662.jpg" alt="laptop" height="75"></li>
+        <li><a href="#openModal" class='l4' style='color:rgb(59,59,247)'><u>Editar</u></a></li>
+      </ul>
+    </div>
+<!--final otra lista inicia-->
+<!--otra lista inicia-->
+<div id='lis' class='lis'>
+    <ul>
+        <li><a href="#" class='l3'>3</a></li>
+        <li><a  href="#" class='l3'>Nevera</a></li>
+        <li><a href="#" class='l3'>9,000,000</a></li>
+        <li><a href="#" class='l3'>Disponible</a></li>
+        <li><a href="#" class='l3'>Proveedor C</a></li>
+        <li><img src="https://jumbocolombiafood.vteximg.com.br/arquivos/ids/3315644-1000-1000/image-480e4c3175de4548808254d9556a7cc6.jpg?v=637187853796530000" alt="nevera" height="75"></li>
+        <li><a href="#openModal" class='l4' style='color:rgb(59,59,247)'><u>Editar</u></a></li>
+      </ul>
+    </div>
+<!--final otra lista inicia-->
+<!--otra lista inicia-->
+<div id='lis2' class='lis2'>
+    <ul>
+        <li><a href="#" class='l4'>4</a></li>
+        <li><a  href="#" class='l4'>Camara</a></li>
+        <li><a href="#" class='l4'>3,000,000</a></li>
+        <li><a href="#" class='l4'>Disponible</a></li>
+        <li><a href="#" class='l4'>Proveedor D</a></li>
+        <li><img src="https://cdn-4.nikon-cdn.com/e/Q5NM96RZZo-YRYNeYvAi9beHK4x3L-8u4h56I3YwHLAQ4G0XzTY4Dg==/Views/1590_D3500_front.png" alt="Camara" height="75"></li>
+        <li><a href="#openModal" class='l4' style='color:rgb(59,59,247)'><u>Editar</u></a></li>
+      </ul>
+    </div>
+<!--final otra lista inicia-->
+    </body>
+
+<!--Footer-->
+<footer class="footer">
+    <div class="redes">
+        <div class="cont1">
+            <div class="c1">
+                <h5 id='t1'> ayuda e información</h5>
+                <p class="p1">Peticiones, Quejas, Reclamos y Sugerencias</p>
+                <p class="p1">Preguntas Frecuentes</p>
+                <p class="p1">Cambios y devoluciones</p>
+                <p class="p1">Cupones y códigos de promoción</p>
+            </div>
+            <div class="c2">
+                <h5 id='t1'> sobre nosotros</h5>
+                <p class="p1">Quiénes somos</p>
+            </div>
+            <div class="c3">
+                <h5 id='t1'> Términos y Condiciones</h5>
+                <p class="p1">Política de protección de datos</p>
+                <p class="p1">Términos y Condiciones</p>
+            </div>
+            <div class="c4">
+                <h7><i class="fab fa-facebook icon1"></i></h7>
+                <h7><i class="fab fa-instagram icon1"></i></h7>
+                <h7><i class="fab fa-twitter icon1"></i></h7>
+                <h7><i class="fab fa-phone icon1"></i></h7>
+            </div>
+        </div>
+        <div class="cont2">
+            <div class="co1">
+                                    
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>

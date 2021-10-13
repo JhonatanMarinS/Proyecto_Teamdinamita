@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+
+header {
+    background-color: #F87B06 ;
+    border : 1px solid black;
+    padding: 20px;
+}
+
+.menu{
+    background-color: #F87B06;
+}
+
+.menu li{
+    list-style: none;
+    padding: 5px;
+    display: inline-block;
+}
+.seccion{
+    margin: 20px   
+}
+
+.imagen{
+    margin: 60px;
+    background-color: white;
+    width: 500px;
+    float:  left;
+}
+.info{
+    margin: 100px;
+    padding: 5px;
+    background-color: #F0CCAD;
+    width: 450px;
+    float: right;
+}
+
+
+
+
+
+
