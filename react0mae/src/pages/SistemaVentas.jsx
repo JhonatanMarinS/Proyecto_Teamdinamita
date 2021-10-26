@@ -5,6 +5,7 @@ function SistemaVentas (){
     return(
 <div id="cameBody">
     <body>
+    <img src={lupa} className='imagen' />
             <form>
                 <fieldset>
                     <legend></legend>
