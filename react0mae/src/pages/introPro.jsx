@@ -1,76 +1,80 @@
 //import { Link } from 'react-router-dom'
 import lupa from '../media/lupa.jpg'
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons';
+
 
 const IntroPro = () =>{
     return(
-<body>
-        <div className="n"> 
-        <a href="#" title="Ir arriba">
-            <input type="submit" value="Ir arriba" className="botton" style='position:fixed;bottom:0;right:0;'/>
-        </a> 
-    </div> 
-    
-    
-        <img src={lupa} className='imagen'/>
-        
- 
-<div className="input-contenedor">
-    <p className="p"> Mis Productos y Servicios</p>
-    <div className="objetos">
-        <table className="tabla">
+        <div id='conteiner_intro'>
+            <div className="n">
             
-            <tr>
-                   <td><i className="fas fa-arrow-alt-circle-right icon"></i> Tipo de Productos y Servicios</td>      
-                   <td>
-                    <a className="button" style="font-size: 15px;" href="V02.html"  target="_blank">
-                        <span className="fas fa-arrow-alt-circle-right icon"></span></a><label>Productos</label></td>
-                        
-                       
-                   <td><i className="fas fa-arrow-alt-circle-right icon"></i>  Servicios</td>      
-            
-            </tr>
-            <tr className="objetos">
-                     <td><i className="fas fa-arrow-alt-circle-right icon"></i>   Stock</td>      
-                     <td><i className="fas fa-arrow-alt-circle-right icon"></i>   Descuentos</td>      
-             </tr>
-    
-          </table>
+            </div>
+
+
+            <img src={lupa} className='imagen' />
+
+
+            <div className="input-contenedor">
+                <p className="p"> Mis Productos y Servicios</p>
+                <div className="objetos">
+                    <table className="tabla">
+
+                        <tr>
+                            <td><FontAwesomeIcon className="icon" icon={ faArrowAltCircleRight }/> Tipo de Productos y Servicios</td>
+                            <td>
+                                <a href ='/maestroPro.jsx' className="button" styles="font-size: 15px;">
+                                <FontAwesomeIcon className="icon" icon={ faArrowAltCircleRight }/></a><label>Productos</label></td>
+
+
+                            <td><FontAwesomeIcon className="icon" icon={ faArrowAltCircleRight }/>  Servicios</td>
+
+                        </tr>
+                        <tr className="objetos">
+                            <td><FontAwesomeIcon className="icon" icon={ faArrowAltCircleRight }/>   Stock</td>
+                            <td><FontAwesomeIcon className="icon" icon={ faArrowAltCircleRight }/>   Descuentos</td>
+                        </tr>
+
+                    </table>
+                </div>
+                <p className="p"> Mi Empresa</p>
+                <div className="objetos">
+                    <table className="tabla">
+                        <tr className="objetos">
+                            <td><FontAwesomeIcon className="icon" icon={ faArrowAltCircleRight }/>   Configuración General</td>
+                            <td><FontAwesomeIcon className="icon" icon={ faArrowAltCircleRight }/>   Sucursal</td>
+                            <td><FontAwesomeIcon className="icon" icon={ faArrowAltCircleRight }/>   Usuario</td>
+
+                        </tr>
+                        <tr className="objetos">
+                            <td><FontAwesomeIcon className="icon" icon={ faArrowAltCircleRight }/>   Perfil de Acceso</td>
+
+                        </tr>
+                    </table>
+                </div>
+                <p className="p"> Mis Ventas</p>
+
+                <div className="objetos">
+                    <table className="tabla">
+                        <tr className="objetos">
+                            <td><a className="button" styles="font-size: 15px;" href="Inter_Sis_Vent.html" target="_blank">
+                            <FontAwesomeIcon className="icon" icon={ faArrowAltCircleRight }/></a><label>Sistemas de Ventas</label></td>
+                            <td><FontAwesomeIcon className="icon" icon={ faArrowAltCircleRight }/>   Renovación</td>
+                            <td><FontAwesomeIcon className="icon" icon={ faArrowAltCircleRight }/>   Formas de Pago</td>
+
+                        </tr>
+                        <tr className="objetos">
+                            <td><FontAwesomeIcon className="icon" icon={ faArrowAltCircleRight }/>   Tipo de Documento</td>
+
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+        <script src="conteiner_intro"></script>
         </div>
-        <p className="p"> Mi Empresa</p>
-        <div className="objetos">
-            <table className="tabla">
-              <tr className="objetos">
-                     <td><i className="fas fa-arrow-alt-circle-right icon"></i>   Configuración General</td>      
-                     <td><i className="fas fa-arrow-alt-circle-right icon"></i>   Sucursal</td>      
-                     <td><i className="fas fa-arrow-alt-circle-right icon"></i>   Usuario</td>      
-              
-              </tr>
-              <tr className="objetos">
-                     <td><i className="fas fa-arrow-alt-circle-right icon"></i>   Perfil de Acceso</td>      
-                
-               </tr>
-            </table> 
-        </div>   
-        <p className="p"> Mis Ventas</p>
-        
-            <div className="objetos">
-                <table className="tabla">
-                <tr className="objetos">
-                    <td><a className="button" style="font-size: 15px;" href="Inter_Sis_Vent.html"  target="_blank">
-                        <span className="fas fa-arrow-alt-circle-right icon"></span></a><label>Sistemas de Ventas</label></td>
-                         <td><i className="fas fa-arrow-alt-circle-right icon"></i>   Renovación</td>      
-                         <td><i className="fas fa-arrow-alt-circle-right icon"></i>   Formas de Pago</td>      
-                
-                </tr>
-                <tr className="objetos">
-                         <td><i className="fas fa-arrow-alt-circle-right icon"></i>   Tipo de Documento</td>      
-                  
-                 </tr>
-              </table>     
-            </div> 
-        </div>
-    </body>
     )
 }
 export default IntroPro
