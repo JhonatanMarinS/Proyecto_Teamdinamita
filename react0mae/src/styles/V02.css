@@ -28,7 +28,7 @@ body{
 	pointer-events: auto;
 }
 .modalDialog > div {
-	width: 500px;
+	width: 550px;
 	position: relative;
 	margin: 3% auto;
 	padding: 5px 20px 13px 20px;
@@ -95,7 +95,7 @@ h3{
 input[type='text']{
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
-    width:50%;
+    width:60%;
     padding:5px;
     margin-bottom: 11px;
     margin-left: 5px;
@@ -143,6 +143,7 @@ input[type='radio']{
     background: cadetblue;
     border:none; 
 }
+
 p{
     text-align: center;
     font-size: 13px;
@@ -288,7 +289,7 @@ h1 {
     position:absolute;
 
     margin-top: 5px;
-    margin-left: 865px;
+    margin-left: 840px;
 }
 /*fin MaePro*/
 /* Inicio Ver productos*/
@@ -307,8 +308,10 @@ h6{
     padding: 0;
     overflow: hidden;
     position:relative;
+    margin-top: 5px;
     z-index: 100;
     background-color: #2e518b;
+    text-align: center;
     
   }
   
@@ -328,6 +331,34 @@ h6{
     padding-left: 40px;
 
    }
+   #LL li a {
+    display: block;
+    cursor:context-menu;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    padding-right: 110px;
+    padding-left: 40px;
+
+   }
+   #LL ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position:relative;
+    z-index: 100;
+    margin-top: 5px;
+    background-color: #2e518b;
+    text-align: center;
+    
+  }
+  
+  #LL li {
+    float: left;
+    
+  }
 .table{
     margin-top: 30px;
     margin-bottom: 0px;
@@ -425,7 +456,7 @@ h6{
     margin: 5px 0px 0px 3px;
     text-align: left;
 }
-.icon1{
+.icon{
     padding-top: 18px;
     text-align: center;
     padding-left: 300px;

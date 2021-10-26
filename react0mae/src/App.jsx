@@ -6,6 +6,7 @@ import Footer from './content/Footer';
 import Header from './content/Header';
 import MaestroPro from './pages/maestroPro';
 import MaestroUsuario from './pages/maeUsuario';
+import IntroPro from './pages/introPro';
 
 
 
@@ -13,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <MaestroUsuario/>
+      <IntroPro/>
       <Footer/>
     </div>
   );

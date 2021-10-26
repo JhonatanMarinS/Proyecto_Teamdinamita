@@ -8,7 +8,16 @@ const Header = () => {
             <div className="menu" id="menu">
                 
                 <ul>
-                <li><a href="#">Mi Empresa</a></li>
+                <li><a href="#">Mi Empresa</a>
+                <ul>
+                    <li><a href="#">Configuración general</a></li>
+                    
+                    <li><a href="#">Sucursal</a></li>
+                    <li><a className="link" href="V02.html">Usuario</a></li>
+                    <li><a href="#">Perfil de acceso</a></li>
+                    
+                </ul>
+                </li>
                 <li><a href="#">Mis Productos y Servicios</a>
                 
                 <ul>

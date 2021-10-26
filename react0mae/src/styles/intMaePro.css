@@ -41,14 +41,15 @@
       padding-top: 0px;
   }
  
-  .icon{
+  .iconn{
     min-width: 20px;
       text-align: center;
       color: rgb(255, 255, 255);
     
       
   }
-.botton{
+/*
+  .botton{
     border: none;
     width: 70px;
     height: 30px;
@@ -62,6 +63,7 @@
 .botton:hover {
     background: rgba(245, 142, 105, 0.849);
 }
+*/
 .link{
     text-decoration: none;
 }
@@ -93,7 +95,7 @@ h1 {
 }
 
 /* menu */
-
+/*
 #menu ul {
     list-style:none;
     padding-left: 10px;
@@ -105,14 +107,14 @@ h1 {
    }
    
    /* items del menu */
-   
+  /* 
    #menu ul li {
     background-color:#2e518b;
     
    }
    
    /* enlaces del menu */
-   
+  /* 
    #menu ul a {
     display:block;
     color:#fff;
@@ -126,7 +128,7 @@ h1 {
    }
    
    /* items del menu */
-   
+  /* 
    #menu ul li {
     position:relative;
     
@@ -136,13 +138,13 @@ h1 {
    }
    
    /* efecto al pasar el ratón por los items del menu */
-   
+  /* 
    #menu ul li:hover {
     background:#5b78a7;
    }
 
 /* menu desplegable */
-
+/*
 #menu ul ul {
     display:none;
     position:absolute;
@@ -154,7 +156,7 @@ h1 {
    }
    
    /* items del menu desplegable */
-   
+  /* 
    #menu ul ul li {
     float:none;
     width:230px
@@ -162,17 +164,18 @@ h1 {
    
     
    /* enlaces de los items del menu desplegable */
-   
+   /*
    #menu ul ul a {
     line-height:120%;
     padding:10px 15px;
    }
    
    /* items del menu desplegable al pasar el ratón */
-   
+   /*
    #menu ul li:hover > ul {
     display:block;
    }
+   */
 .imagen{
     
     -webkit-transform: rotate(270deg);
@@ -220,10 +223,33 @@ h1 {
       
 }
 .icon3{
-    padding-top: 18px;
+    
     text-align: center;
-    padding-left: 300px;
-    min-width:90px;
+    font-size: 50px;
+    color: rgb(141, 140, 140);
+    margin-right: 100px;
+    margin-left: 40px;
+    
+      
+}
+.icon4{
+    
+    text-align: center;
+    font-size: 50px;
+    color: rgb(141, 140, 140);
+    margin-right: 100px;
+    margin-left: 51px;
+    
+      
+}
+.icon5{
+    
+    text-align: center;
+    font-size: 50px;
+    color: rgb(141, 140, 140);
+    margin-right: 100px;
+    margin-left: 62px;
+    
       
 }
 

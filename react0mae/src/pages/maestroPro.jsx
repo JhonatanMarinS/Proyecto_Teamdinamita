@@ -1,4 +1,4 @@
-
+import lupa from '../media/lupa.jpg'
 import celular from '../media/celular.jpg'
 import laptop from '../media/laptop.jpg'
 import nevera from '../media/nevera.jpg'
@@ -37,26 +37,26 @@ const MaestroPro = () =>{
             <h3>Ingreso de producto</h3>
             <div className='encerrado2'>
                 <div className="imput-con">
-                    <FontAwesomeIcon className="icon" icon2={ faBarcode }/>Código:<input type='text'/>
+                    <FontAwesomeIcon className="icon2" icon={ faBarcode }/>Código:<input type='text'/>
                     
                  
                 </div>
 
                 <div className="imput-con">
-                     <FontAwesomeIcon className="icon" icon2={ faBookmark }/>
+                     <FontAwesomeIcon className="icon2" icon={ faBookmark }/>
                     <label>Descripción:</label>
                     <input type='text'/>
                  
                 </div>
 
                 <div className="imput-con">
-                     <FontAwesomeIcon className="icon" icon2={ faCalendarAlt }/>
+                     <FontAwesomeIcon className="icon2" icon={ faCalendarAlt }/>
                     <label>Fecha de creación:</label>
                     <input type='text'/>
                  
                 </div>
                 <div className="imput-con">
-                     <FontAwesomeIcon className="icon" icon2={ faClipboardList }/>
+                     <FontAwesomeIcon className="icon2" icon={ faClipboardList }/>
                     <label>Tipo:</label>
                         <input type="radio" id="html" name="fav_language" value="HTML"/>
                          <label for="html">Sin Definición</label>
@@ -68,14 +68,14 @@ const MaestroPro = () =>{
                 </div>
 
                 <div className="imput-con">
-                     <FontAwesomeIcon className="icon" icon2={ faRulerCombined }/>
+                     <FontAwesomeIcon className="icon2" icon={ faRulerCombined }/>
                     <label>Unidad de Medida:</label>
                     <input type='text'/>
                  
                 </div>
 
                 <div className="imput-con">
-                     <FontAwesomeIcon className="icon" icon2={ faInfoCircle }/>
+                     <FontAwesomeIcon className="icon2" icon={ faInfoCircle }/>
                     <label>Estado:</label>
                     <select id="product" className='pro' name="Productos"/>
                         <option value="Disponible">Disponible</option>
@@ -103,27 +103,27 @@ const MaestroPro = () =>{
             <h3>Buscar producto</h3>
             <div className='encerrado2'>
                 <div className="imput-con">
-                     <FontAwesomeIcon className="icon" icon2={ faBookOpen }/>Nombre:<input type='text'/>
+                     <FontAwesomeIcon className="icon2" icon={ faBookOpen }/>Nombre:<input type='text'/>
                     
                  
                 </div>
 
                 <div className="imput-con">
-                    <FontAwesomeIcon className="icon" icon2={ faBarcode }/>
+                    <FontAwesomeIcon className="icon2" icon={ faBarcode }/>
                     <label>Código:</label>
                     <input type='text'/>
                  
                 </div>
 
                 <div className="imput-con">
-                     <FontAwesomeIcon className="icon" icon2={ faCalendarAlt }/>
+                     <FontAwesomeIcon className="icon2" icon={ faCalendarAlt }/>
                     <label>Fecha de creación:</label>
                     <input type='text'/>
                  
                 </div>
                 
                 <div className="imput-con">
-                     <FontAwesomeIcon className="icon" icon2={ faList }/>
+                     <FontAwesomeIcon className="icon2" icon={ faList }/>
                     <label> Lista de productos:</label>
                     <select id="product" className='pro' name="Productos"/>
                         <option value="producto 1">producto 1</option>

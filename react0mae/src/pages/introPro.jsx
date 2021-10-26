@@ -22,18 +22,18 @@ const IntroPro = () =>{
                     <table className="tabla">
 
                         <tr>
-                            <td><FontAwesomeIcon className="icon" icon={ faArrowAltCircleRight }/> Tipo de Productos y Servicios</td>
+                            <td><FontAwesomeIcon className="iconn" icon={ faArrowAltCircleRight }/> Tipo de Productos y Servicios</td>
                             <td>
                                 <a href ='/maestroPro.jsx' className="button" styles="font-size: 15px;">
-                                <FontAwesomeIcon className="icon" icon={ faArrowAltCircleRight }/></a><label>Productos</label></td>
+                                <FontAwesomeIcon className="iconn" icon={ faArrowAltCircleRight }/></a><label>Productos</label></td>
 
 
-                            <td><FontAwesomeIcon className="icon" icon={ faArrowAltCircleRight }/>  Servicios</td>
+                            <td><FontAwesomeIcon className="iconn" icon={ faArrowAltCircleRight }/>  Servicios</td>
 
                         </tr>
                         <tr className="objetos">
-                            <td><FontAwesomeIcon className="icon" icon={ faArrowAltCircleRight }/>   Stock</td>
-                            <td><FontAwesomeIcon className="icon" icon={ faArrowAltCircleRight }/>   Descuentos</td>
+                            <td><FontAwesomeIcon className="iconn" icon={ faArrowAltCircleRight }/>   Stock</td>
+                            <td><FontAwesomeIcon className="iconn" icon={ faArrowAltCircleRight }/>   Descuentos</td>
                         </tr>
 
                     </table>
@@ -42,13 +42,13 @@ const IntroPro = () =>{
                 <div className="objetos">
                     <table className="tabla">
                         <tr className="objetos">
-                            <td><FontAwesomeIcon className="icon" icon={ faArrowAltCircleRight }/>   Configuración General</td>
-                            <td><FontAwesomeIcon className="icon" icon={ faArrowAltCircleRight }/>   Sucursal</td>
-                            <td><FontAwesomeIcon className="icon" icon={ faArrowAltCircleRight }/>   Usuario</td>
+                            <td><FontAwesomeIcon className="iconn" icon={ faArrowAltCircleRight }/>   Configuración General</td>
+                            <td><FontAwesomeIcon className="iconn" icon={ faArrowAltCircleRight }/>   Sucursal</td>
+                            <td><FontAwesomeIcon className="iconn" icon={ faArrowAltCircleRight }/>   Usuario</td>
 
                         </tr>
                         <tr className="objetos">
-                            <td><FontAwesomeIcon className="icon" icon={ faArrowAltCircleRight }/>   Perfil de Acceso</td>
+                            <td><FontAwesomeIcon className="iconn" icon={ faArrowAltCircleRight }/>   Perfil de Acceso</td>
 
                         </tr>
                     </table>
@@ -59,13 +59,13 @@ const IntroPro = () =>{
                     <table className="tabla">
                         <tr className="objetos">
                             <td><a className="button" styles="font-size: 15px;" href="Inter_Sis_Vent.html" target="_blank">
-                            <FontAwesomeIcon className="icon" icon={ faArrowAltCircleRight }/></a><label>Sistemas de Ventas</label></td>
-                            <td><FontAwesomeIcon className="icon" icon={ faArrowAltCircleRight }/>   Renovación</td>
-                            <td><FontAwesomeIcon className="icon" icon={ faArrowAltCircleRight }/>   Formas de Pago</td>
+                            <FontAwesomeIcon className="iconn" icon={ faArrowAltCircleRight }/></a><label>Sistemas de Ventas</label></td>
+                            <td><FontAwesomeIcon className="iconn" icon={ faArrowAltCircleRight }/>   Renovación</td>
+                            <td><FontAwesomeIcon className="iconn" icon={ faArrowAltCircleRight }/>   Formas de Pago</td>
 
                         </tr>
                         <tr className="objetos">
-                            <td><FontAwesomeIcon className="icon" icon={ faArrowAltCircleRight }/>   Tipo de Documento</td>
+                            <td><FontAwesomeIcon className="iconn" icon={ faArrowAltCircleRight }/>   Tipo de Documento</td>
 
                         </tr>
                     </table>
