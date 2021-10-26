@@ -24,7 +24,7 @@ const IntroPro = () =>{
                         <tr>
                             <td><FontAwesomeIcon className="iconn" icon={ faArrowAltCircleRight }/> Tipo de Productos y Servicios</td>
                             <td>
-                                <a href ='/maestroPro.jsx' className="button" styles="font-size: 15px;">
+                                <a href ='/maestroPro.jsx' className="buttonn" styles="font-size: 15px;">
                                 <FontAwesomeIcon className="iconn" icon={ faArrowAltCircleRight }/></a><label>Productos</label></td>
 
 
@@ -58,7 +58,7 @@ const IntroPro = () =>{
                 <div className="objetos">
                     <table className="tabla">
                         <tr className="objetos">
-                            <td><a className="button" styles="font-size: 15px;" href="Inter_Sis_Vent.html" target="_blank">
+                            <td><a className="buttonn" styles="font-size: 15px;" href="Inter_Sis_Vent.html" target="_blank">
                             <FontAwesomeIcon className="iconn" icon={ faArrowAltCircleRight }/></a><label>Sistemas de Ventas</label></td>
                             <td><FontAwesomeIcon className="iconn" icon={ faArrowAltCircleRight }/>   Renovación</td>
                             <td><FontAwesomeIcon className="iconn" icon={ faArrowAltCircleRight }/>   Formas de Pago</td>

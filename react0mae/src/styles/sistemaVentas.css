@@ -1,0 +1,169 @@
+/*============ Ventas ============*/
+.datos_venta, .title_page{
+	width: 100%;
+	max-width: 900px;
+	margin-bottom: 10px;
+    padding: auto;
+    text-align: center;
+
+
+    
+}
+.datos_cliente{
+    width: 100%;
+	max-width: 900px;
+	margin-bottom: 0px;
+    padding: auto;
+    background-color:rgb(252, 134, 55);
+}
+
+tr.tr{
+    background-color: rgb(252, 134, 55);
+    border:10px solid black;
+}
+
+#a{
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 30px;
+}
+#cameBody{
+    background: white;
+
+
+}
+
+#h{
+    background-color: white;
+}
+/*h2 {
+    border: 1px solid rgb(255, 102, 46);
+    margin-left: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 0px;
+    font-size: 22px;
+    background: rgb(255, 102, 46);
+    color: rgb(255, 255, 255);
+    margin:0px;
+
+}*/
+#h44{
+    border:2px solid #78909C;
+    text-align: center;
+    background-color: rgb(252, 134, 55);
+}
+
+/*.imagen{
+    
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position:absolute;
+
+    margin-top: 210px;
+    margin-left: 840px;
+}
+
+* {
+    box-sizing: border-box;
+}*/
+
+
+#detalle_venta tr{
+	background-color: #FFF !important;
+    padding: 10px;
+
+}
+#detalle_venta td{
+	border-bottom: 1px solid #CCC;
+}
+.datos{
+	background-color: white;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 2px solid #78909C;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.action_cliente{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+
+.datos label{
+	margin: 5px auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.wd30{
+	width: 30%;
+    margin-top: 0px;
+    padding: 10px;
+    padding-right: 2px;
+    padding-top: 1px;
+    display: inline-grid;
+    justify-items: stretch;
+}
+
+.wd50{
+	width: 60%;
+    display: contents;
+}
+.wd100{
+    width: 50%;
+}
+
+#div_registro_cliente, #add_product_venta{
+	display: none;
+}
+.displayN{
+	display: none;
+}
+.tbl_venta{
+	max-width: 900px;
+	margin: auto 3,6;
+    border: solid #78909C;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: inherit;
+    padding-bottom: inherit;
+    padding-left: initial;
+    border-spacing: revert;
+    width: 750px;
+}
+.tbl_venta tfoot td{
+	font-weight: bold;
+    text-align: end;
+}
+.textright{
+	text-align: right;
+}
+.textcenter{
+	text-align: center;
+}
+.textleft{
+	text-align: left;
+}
+.btn_anular{
+	background-color: #bdbaba;
+	border: 0px;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 10px;
+	margin: 0 3px;
+	color: #FFF;
+}

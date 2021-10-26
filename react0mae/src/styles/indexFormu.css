@@ -1,0 +1,131 @@
+#h11::before{
+    content: 'Bienvenido al Sistema';
+    width: 59%;
+    height: 8%;
+    padding-top: 10px;
+    
+  
+    position: absolute;
+    top: 200px;
+    color:white;
+  
+    background: rgb(255, 102, 46);
+    text-align: center;
+  }
+  #h22::before{
+    content: '';
+    width: 59%;
+    padding-top: 10px;
+    position: absolute;
+    top: 260px;
+    color:white;
+    background: #2e518b;
+    text-align: center;
+  }
+  
+  
+  p.centrado {
+    text-align: center;
+  
+  }
+  img{
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 60px;
+  }
+  
+  #cameBody body {
+    background-color: white;
+    font-family: 'Open sans';
+    margin-top: 120px;
+  
+  }
+  * {
+    box-sizing: border-box;
+  
+  }
+  p.pp {
+    text-align: justify;
+   
+  }
+  button {
+    text-align: center;
+  }
+  .contenedor {
+    width: 100%;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 70px;
+    margin-top: 70px;
+    margin-left: 70px;
+  }
+  .formulario1{
+    background: wheat;
+    margin-top: 130px;
+    padding: 3px;
+    height: 400px;
+    margin: 50px auto;
+  }
+  
+  input[type="text"].text,
+  input[type="password"]{
+    font-size: 15px;
+    width: 80%;
+    padding: 12px;
+    border:none;
+  }
+  .input-contenedores{
+    margin-bottom: 10px;
+    border: 1px solid #aaa;
+  }
+  .icone{
+    min-width: 50px;
+    text-align: center;
+    color:#999;
+  }
+  .button{
+    text-align: center;
+    border: none;
+    width: 100%;
+    color:white;
+    font-size: 15px;
+    background:rgb(255, 117, 66);
+    padding: 10px 112px;
+    border-radius:7px;
+    cursor:pointer;
+    padding-top: 7px;
+    text-decoration: none;
+  }
+  
+  .button:haver{
+    background: cadetblue;
+  
+  }
+  .link{
+    text-decoration: none;
+    color:rgb(255, 102, 46);
+    font-weight: 600px;
+  }
+  .link:haver{
+    color:cadetblue;
+  }
+  
+  @media(min-width:768px)
+  {
+    .formulario1{
+        margin:20%;
+        margin-top:50px;
+        border-radius: 2%;
+        display: inline-flex;
+        align-items: center;
+        flex-direction: row;
+        align-content: stretch;
+        justify-content: flex-end;
+        overflow: hidden;
+    }
+  }
+  /*Agregando carcateristicas de button Valentina*/
+  #button {
+    text-decoration: none;
+  }
+  
