@@ -1,11 +1,13 @@
+import lupa from '../media/lupa.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import { faBan, faCube, faEdit, faPlus, faSave, faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 
 function SistemaVentas (){
     return(
 <div id="cameBody">
     <body>
-    <img src={lupa} className='imagen' />
+    <img src={ lupa } className='imagen' />
             <form>
                 <fieldset>
                     <legend></legend>

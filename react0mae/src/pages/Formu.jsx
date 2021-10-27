@@ -9,7 +9,7 @@ function Formu (){
                     <p className="centrado">
                         <h1 id="h11"></h1>
                         <h2 id="h22"></h2>
-                        <img src="https://www.semana.com/resizer/a7zdk3tDM5ZmhPJf4KxbcphCloo=/1200x675/filters:format(jpg):quality(50)//cloudfront-us-east-1.images.arcpublishing.com/semana/PGI44RONDBFNDO2WFDBBQFFABQ.jpg"></img>
+                        <img className="img" src="https://www.semana.com/resizer/a7zdk3tDM5ZmhPJf4KxbcphCloo=/1200x675/filters:format(jpg):quality(50)//cloudfront-us-east-1.images.arcpublishing.com/semana/PGI44RONDBFNDO2WFDBBQFFABQ.jpg"></img>
                     </p>
                     <div className="contenedor">
                         <p classNameName="pp">

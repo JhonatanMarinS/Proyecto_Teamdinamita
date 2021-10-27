@@ -12,6 +12,8 @@ import '../src/styles/indexFormu.css'
 import '../src/styles/indexinterRegis.css'
 import InterRegis from './pages/InterRegis';
 import '../src/styles/sistemaVentas.css'
+import MaestroVentas from './pages/MaestroVentas';
+import SistemaVentas from './pages/SistemaVentas';
 
 
 
@@ -19,9 +21,9 @@ import '../src/styles/sistemaVentas.css'
 function App() {
   return (
     <div className="App">
-      
-      <InterRegis/>
-      
+      <Header/>
+      <SistemaVentas/>
+      <Footer/>
     </div>
   );
 }
