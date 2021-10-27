@@ -269,21 +269,10 @@ p{
 .bootton:hover {
     background: rgba(245, 142, 105, 0.849);
 }
-.buttonn{
+.button{
     text-decoration: none;
 }
-h1 {
-    border: 1px solid rgb(255, 102, 46);
-    margin-left: 0px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 22px;
-    background: rgb(255, 102, 46);
-    color: rgb(255, 255, 255);
 
-}
 .imagen2{
     
     position:absolute;
