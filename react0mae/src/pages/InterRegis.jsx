@@ -4,9 +4,10 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
 function InterRegis (){
     return(
         <div id="cameBody">
+            
             <body>
                     <p className="parrafo">
-                        Para poder registrarse complete el siguiente formulario:
+                    Para poder registrarse complete el siguiente formulario:
                     </p>
                 <form className="formulario2">
                     <h2 id="h21"></h2>
@@ -50,7 +51,7 @@ function InterRegis (){
                                 oninvalid="this.setCustomValidity('Tienes que ingresar un Correo Electronico!')" oninput="this.setCustomValidity('')"
                                 required />  
                             </div>
-                            <a className= "button" href="IntMaeProd_V01.html"  target="_blank">Ingresar</a>
+                            <a className= "button" href="IntMaeProd_V01.html">Ingresar</a>
                     
 
                         </div>

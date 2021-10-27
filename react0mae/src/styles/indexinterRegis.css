@@ -1,42 +1,21 @@
 p.parrafo{
     text-align: center;
     color: black;
-    font-size: 20px;
+    font-size: 18px;
+    margin-top: 0px;
 }
 #h12{
     text-align: center;
-    color: rgb(255, 102, 46);
+    color: white;
     font-size: 25px;
 }
-#h21::before{
-    content: 'Datos Personales';
-    width: 39%;
-    height: 6%;
-    padding-top: 10px;
-    position: absolute;
-    top: 74px;
-    color:white;
 
-    background: rgb(255, 102, 46);
-    text-align: center;
-    border-radius: 2%;
-}
-#h33::before{
-    content: '';
-    width: 39%;
-    padding-top: 8px;
-    position: absolute;
-    top: 120px;
-    color:white;
-    background: #2e518b;
-    text-align: center;
-    border-radius: 2%;
-}
+
 .iconee{
     min-width: 500px;
     font-size: 50px;
     text-align: center;
-    color: #9a9a9a;;
+    color: #1a2537;
 }
 #cameBody body{
     background-color: white;
@@ -44,9 +23,7 @@ p.parrafo{
 * {
     box-sizing: border-box;
 }
-p.centrado {
-    text-align: center;
-}
+
 .contenedor5 {
     width: 100%;
     padding: 10px;
@@ -69,29 +46,30 @@ p.centrado {
     .formulario2{
         margin:auto;
         width: 500px;
-        margin-top:25px;
+        margin-top:20px;
         border-radius: 2%;
     }
 }
 input[type="text"].text2,
 input[type="date"]{
-    font-size: 14px;
+    font-size: 15px;
     width: 100%;
     padding: 12px;
     border:none;
     color: #aaa;
 }
-/*
+
 .button{
     text-align: center;
     border: none;
     width: 100%;
     color:white;
-    font-size: 15px;
+    font-size: 18px;
     background:rgb(255, 117, 66);
-    padding: 9px 213px;
+    padding: 9px 204px;
     border-radius:7px;
     cursor:pointer;
     text-decoration: none;
 
-}*/
+
+}

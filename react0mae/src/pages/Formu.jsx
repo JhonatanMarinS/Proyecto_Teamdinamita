@@ -7,12 +7,12 @@ function Formu (){
             <body>
                 <form className="formulario1">
                     <p className="centrado">
-                        <h1 id="h11"></h1>
-                        <h2 id="h22"></h2>
-                        <img className="img" src="https://www.semana.com/resizer/a7zdk3tDM5ZmhPJf4KxbcphCloo=/1200x675/filters:format(jpg):quality(50)//cloudfront-us-east-1.images.arcpublishing.com/semana/PGI44RONDBFNDO2WFDBBQFFABQ.jpg"></img>
+                        <div className="h11"><h1 className="h1">Bienvenido al Sistema</h1></div>
+                        <div className="bluee"/>
+                        <img className="imga" src="https://www.semana.com/resizer/a7zdk3tDM5ZmhPJf4KxbcphCloo=/1200x675/filters:format(jpg):quality(50)//cloudfront-us-east-1.images.arcpublishing.com/semana/PGI44RONDBFNDO2WFDBBQFFABQ.jpg"></img>
                     </p>
                     <div className="contenedor">
-                        <p classNameName="pp">
+                        <p className="pp">
                             Para poder ingresar al sistema se debe validar sus credenciales en el siguiente formulario:
                         </p>
                         <div className="input-contenedores"> 
@@ -27,7 +27,7 @@ function Formu (){
                             oninvalid="this.setCustomValidity('Tienes que ingresar su Contrasena!')" oninput="this.setCustomValidity('')"
                             required /> 
                         </div>
-                        <a className= "button" href="indexsiguiente.html"  target="_blank"> Ingresar</a>
+                        <a className= "buttonn" href="indexsiguiente.html"> Ingresar</a>
                         <p className="pp" styles="margin-left: 50px;">¿No tienes cuenta? <a className= "link" href="Inter_Regis.html">Registrate</a>
                         </p>
                     </div>

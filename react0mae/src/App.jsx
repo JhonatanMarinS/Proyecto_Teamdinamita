@@ -21,9 +21,7 @@ import SistemaVentas from './pages/SistemaVentas';
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <SistemaVentas/>
-      <Footer/>
+      <InterRegis/>
     </div>
   );
 }
